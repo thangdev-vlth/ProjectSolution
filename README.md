@@ -6,5 +6,7 @@
 -Microsoft.EntityFrameworkCore.SqlServer
 -Microsoft.EntityFrameworkCore.Design
 -Microsoft.EntityFrameworkCore.Tools
+##Test
+
 ##How to configure and run
 
