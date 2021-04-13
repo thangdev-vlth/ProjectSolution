@@ -1,11 +1,12 @@
 ﻿//using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace ProjectSolution.Data.Entities
 {
-    /*public class AppUser : IdentityUser<Guid>
+    public class AppUser : IdentityUser<Guid>
     {
         public string FirstName { get; set; }
 
@@ -18,5 +19,5 @@ namespace ProjectSolution.Data.Entities
         public List<Order> Orders { get; set; }
 
         public List<Transaction> Transactions { get; set; }
-    }*/
+    }
 }
