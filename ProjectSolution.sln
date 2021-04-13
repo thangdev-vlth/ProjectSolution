@@ -3,16 +3,22 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSolution.Webapp", "ProjectSolution.Webapp\ProjectSolution.Webapp.csproj", "{B13D2A8E-6758-4F92-81F9-860E2F976DF2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.Webapp", "ProjectSolution.Webapp\ProjectSolution.Webapp.csproj", "{B13D2A8E-6758-4F92-81F9-860E2F976DF2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{303828BE-5890-4B72-BF66-4D3FD505D660}"
 	ProjectSection(SolutionItems) = preProject
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSolution.Data", "ProjectSolution.Data\ProjectSolution.Data.csproj", "{730ABB90-5424-4CAA-B295-91863C8AD0D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.Data", "ProjectSolution.Data\ProjectSolution.Data.csproj", "{730ABB90-5424-4CAA-B295-91863C8AD0D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSolution.Application", "ProjectSolution.Application\ProjectSolution.Application.csproj", "{0AC182FC-5742-456E-87B0-13E422970FF9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.Application", "ProjectSolution.Application\ProjectSolution.Application.csproj", "{0AC182FC-5742-456E-87B0-13E422970FF9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.Utilities", "ProjectSolution.Utilities\ProjectSolution.Utilities.csproj", "{DB016EBB-9DE9-477A-A316-159119007558}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.ViewModels", "ProjectSolution.ViewModels\ProjectSolution.ViewModels.csproj", "{C7BAEBB0-012F-4798-8E8C-314758528038}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSolution.BackendApi", "ProjectSolution.BackendApi\ProjectSolution.BackendApi.csproj", "{72460F92-3EB9-4C88-9697-971D45CE7FEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +38,18 @@ Global
 		{0AC182FC-5742-456E-87B0-13E422970FF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AC182FC-5742-456E-87B0-13E422970FF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AC182FC-5742-456E-87B0-13E422970FF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB016EBB-9DE9-477A-A316-159119007558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB016EBB-9DE9-477A-A316-159119007558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB016EBB-9DE9-477A-A316-159119007558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB016EBB-9DE9-477A-A316-159119007558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7BAEBB0-012F-4798-8E8C-314758528038}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BAEBB0-012F-4798-8E8C-314758528038}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BAEBB0-012F-4798-8E8C-314758528038}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BAEBB0-012F-4798-8E8C-314758528038}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72460F92-3EB9-4C88-9697-971D45CE7FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72460F92-3EB9-4C88-9697-971D45CE7FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72460F92-3EB9-4C88-9697-971D45CE7FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72460F92-3EB9-4C88-9697-971D45CE7FEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
