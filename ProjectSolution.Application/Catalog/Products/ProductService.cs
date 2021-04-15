@@ -386,6 +386,7 @@ namespace ProjectSolution.Application.Catalog.Products
             return pagedResult;
         }
 
+       
         public async Task<ApiResult<bool>> CategoryAssign(int id, CategoryAssignRequest request)
         {
             var user = await _context.Products.FindAsync(id);
@@ -517,5 +518,7 @@ namespace ProjectSolution.Application.Catalog.Products
                 }).ToListAsync();
             return data;
         }
+
+        
     }
 }
