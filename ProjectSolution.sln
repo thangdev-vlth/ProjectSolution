@@ -31,6 +31,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution", "0. Solution"
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSolution.Apiltegration", "ProjectSolution.Apiltegration\ProjectSolution.Apiltegration.csproj", "{E0555354-E604-4F67-8DEB-E4E20A45A8C4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{72460F92-3EB9-4C88-9697-971D45CE7FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72460F92-3EB9-4C88-9697-971D45CE7FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72460F92-3EB9-4C88-9697-971D45CE7FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0555354-E604-4F67-8DEB-E4E20A45A8C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0555354-E604-4F67-8DEB-E4E20A45A8C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0555354-E604-4F67-8DEB-E4E20A45A8C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0555354-E604-4F67-8DEB-E4E20A45A8C4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -72,6 +78,7 @@ Global
 		{DB016EBB-9DE9-477A-A316-159119007558} = {75414F10-551D-4B42-9071-15DF167540D5}
 		{C7BAEBB0-012F-4798-8E8C-314758528038} = {75414F10-551D-4B42-9071-15DF167540D5}
 		{72460F92-3EB9-4C88-9697-971D45CE7FEA} = {82CC871E-1F44-4D5B-A026-C4BB00EBB6DA}
+		{E0555354-E604-4F67-8DEB-E4E20A45A8C4} = {82CC871E-1F44-4D5B-A026-C4BB00EBB6DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32201481-681F-47F7-9B80-02824F5F2413}
