@@ -18,7 +18,18 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.Utilities",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.ViewModels", "ProjectSolution.ViewModels\ProjectSolution.ViewModels.csproj", "{C7BAEBB0-012F-4798-8E8C-314758528038}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjectSolution.BackendApi", "ProjectSolution.BackendApi\ProjectSolution.BackendApi.csproj", "{72460F92-3EB9-4C88-9697-971D45CE7FEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectSolution.BackendApi", "ProjectSolution.BackendApi\ProjectSolution.BackendApi.csproj", "{72460F92-3EB9-4C88-9697-971D45CE7FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Infrastructure", "1. Infrastructure", "{75414F10-551D-4B42-9071-15DF167540D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Domain", "2. Domain", "{7746664B-8BEE-4989-B4EB-21A68771B626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Host", "3. Host", "{82CC871E-1F44-4D5B-A026-C4BB00EBB6DA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0. Solution", "0. Solution", "{E0EC70D5-4A90-43F4-9F4C-D88E31A30F58}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,6 +64,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B13D2A8E-6758-4F92-81F9-860E2F976DF2} = {82CC871E-1F44-4D5B-A026-C4BB00EBB6DA}
+		{730ABB90-5424-4CAA-B295-91863C8AD0D5} = {7746664B-8BEE-4989-B4EB-21A68771B626}
+		{0AC182FC-5742-456E-87B0-13E422970FF9} = {7746664B-8BEE-4989-B4EB-21A68771B626}
+		{DB016EBB-9DE9-477A-A316-159119007558} = {75414F10-551D-4B42-9071-15DF167540D5}
+		{C7BAEBB0-012F-4798-8E8C-314758528038} = {75414F10-551D-4B42-9071-15DF167540D5}
+		{72460F92-3EB9-4C88-9697-971D45CE7FEA} = {82CC871E-1F44-4D5B-A026-C4BB00EBB6DA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {32201481-681F-47F7-9B80-02824F5F2413}
